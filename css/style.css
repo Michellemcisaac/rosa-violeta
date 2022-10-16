@@ -30,6 +30,7 @@
 }
 
 
+
 /*-----HEADER-----*/
 header{
     background-color:#ffffff;
@@ -68,6 +69,8 @@ header nav ul li a:hover{
     width: 10%;
 
 }
+
+
 
 /*-----MAIN-----*/
 .hero{
@@ -156,6 +159,14 @@ img {
     gap: 10px; 
     
 } 
+.grid-item:hover img{
+    -webkit-transform:scale(1.07);
+    -moz-transform:scale(1.07);
+    -ms-transform:scale(1.07);
+    -o-transform:scale(1.07);
+    transform:scale(1.07);
+}
+
 
 .imagenes-fonodepantalla{
     margin:20px;
@@ -199,13 +210,11 @@ footer{
 }
 
 
-@media screen and (max-width: 950px){
- 
-    
+@media screen and (max-width: 930px){
+
+  
 }
 
 @media screen and (max-width: 450px){
-    
 
-    
 }
