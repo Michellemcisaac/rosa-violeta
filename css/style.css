@@ -122,10 +122,10 @@ img {
 
 .encabezado-productos h1{ 
     font-family: 'Montserrat', sans-serif;
-        color: #a96974;
-        text-align: center;
-        margin: 30px;
-        text-align: center;
+    color: #a96974;
+    text-align: center;
+    margin: 30px;
+    text-align: center;
        
 }
 
@@ -245,6 +245,25 @@ img {
 
 }
 
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    align-items: center;
+ } 
+ 
+ .btn-primary {
+    color: #fff;
+    background-color:#a96974 ;
+    border-color:#a96974;
+}
+
+.encabezado-productos h1{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 300;
+}
+
 /*------FOOTER-----*/
 
 footer{
@@ -296,6 +315,11 @@ footer{
         grid-column: span 1; 
         grid-row: span 1;
      }
+
+     .productos{
+        flex-direction: column;
+     } 
+     
     }
     
 
@@ -335,6 +359,11 @@ footer{
         grid-column: span 1; 
         grid-row: span 1;
      }
+     
+     .productos{
+        flex-direction: column;
+     } 
+     
     }
     
 
